@@ -1,0 +1,3 @@
+npm install axios react-helmet react-redux react-router-dom@^5.2.0 
+redux redux-devtools-extension redux-thunk webfontloader react-rating-stars-component
+react-js-pagination react-material-ui-carousel
