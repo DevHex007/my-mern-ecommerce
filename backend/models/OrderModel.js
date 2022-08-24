@@ -31,24 +31,24 @@ const orderSchema = new mongoose.Schema({
     {
       productName: {
         type: String,
-        //required: true,
+        required: true,
       },
       productPrice: {
         type: Number,
-        //required: true,
+        required: true,
       },
       quantity: {
         type: Number,
-        //required: true,
+        required: true,
       },
       productImage: {
         type: String,
-       //required: true,
+       required: true,
       },
       productId: {
         type: mongoose.Schema.ObjectId,
         ref: "Product",
-        //required: true,
+        required: true,
       },
     },
   ],
